@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<head><title>Hello World</title></head>
+<body>
+<form action="calculator.php" method="GET">
+
+	<p>
+		<label for="firstNum">First number:</label>
+		<input type="text" name="firstNum" id="firstNum" />
+	</p>
+	<p>
+		<label for="secondNum">Second number:</label>
+		<input type="text" name="secondNum" id="secondNum" />
+	</p>
+	
+	<p>
+		<strong>Arithmetic Type:</strong>
+		<input type="radio" name="operation" value="add" id="add" /> 
+		<label for="add">Add</label> &nbsp;
+		<input type="radio" name="operation" value="sub" id="sub" /> 
+		<label for="sub">Sub</label> &nbsp;
+		<input type="radio" name="operation" value="mul" id="mul" /> 
+		<label for="mul">Mul</label> &nbsp;
+		<input type="radio" name="operation" value="div" id="div" /> 
+		<label for="div">Div</label> &nbsp;
+	</p>
+	<p>
+		<input type="submit" value="Send" />
+		<input type="reset" />
+	</p>
+</form>
+</body>
+</html>
